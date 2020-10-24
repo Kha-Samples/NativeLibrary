@@ -1,4 +1,4 @@
-let project = new Project('Native Subproject');
+let project = new Project('Native Library');
 
 project.addSources('Sources');
 
