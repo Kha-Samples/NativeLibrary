@@ -2,6 +2,6 @@ let project = new Project('Native Library');
 
 project.addSources('Sources');
 
-project.addLibrary('VeryNative');
+await project.addProject('VeryNative');
 
 resolve(project);
